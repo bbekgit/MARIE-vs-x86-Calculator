@@ -13,12 +13,11 @@ Compiled code (MARIE binary, *.class, etc.)
 [report](https://github.com/bbekgit/MARIE-vs-x86-Calculator/tree/main/report)
 
 Powerpoint presentation
-Please use google drive or dropbox to share your video
-One way to create presentation video is using zoom (free account available)
+Video Presentation
 
 [poster](https://github.com/bbekgit/MARIE-vs-x86-Calculator/tree/main/poster)
 
-Please read Requirement.docx
+Requirement.docx
 
 Feel free to reach out to me: [Bibek's Portfolio](https://bibekgupta.com)
 
