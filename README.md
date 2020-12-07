@@ -22,6 +22,3 @@ Please read Requirement.docx
 
 Feel free to reach out to me: [Bibek's Portfolio](https://bibekgupta.com)
 
-<div class="screenshot-framename">
-	<img "https://thumbs.dreamstime.com/b/positive-negative-plus-minus-assessment-red-green-buttons-shadow-simple-concept-pros-cons-list-advantages-disadvantages-126208220.jpg" />
-</div>
