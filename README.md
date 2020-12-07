@@ -1,6 +1,6 @@
 # MARIE vs x86 Calculator
- 
-Please follow this structure for your repository.
+
+Structure of this repository.
 
 src
 
