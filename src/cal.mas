@@ -2,3 +2,10 @@ Input                        / Accept 1st input from user
 Store  n1                    / storing input to n1
 Input                        / Accept 2nd input from user
 Store n2	                   / storing input to n2
+
+/Addition
+Load n1
+Add n2
+Store ans
+load ans
+Output
