@@ -32,6 +32,14 @@ int main()
                     printf(" Subtraction :%d\n",ans);
                     
                     break;
+            case 3:
+                    printf(" Enter Two Numbers\n");
+                    scanf(" %d %d",&n1,&n2);
+                    ans = n1 * n2;
+                    printf(" Multiplication :%d\n",ans);
+
+
+                    break;
             default:
                    printf(" Enter correct choice\n");
                    break;
