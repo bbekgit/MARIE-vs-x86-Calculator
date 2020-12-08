@@ -16,6 +16,14 @@ int main()
       printf(" 5: Quit\n");
       printf("Enter your choice:");
       scanf("%d",&choice);
+      switch(choice) {
+             case 1:
+
+                    printf(" Enter Two Numbers\n");
+                    scanf(" %d %d",&n1,&n2);
+                    ans = n1 + n2;
+                    printf(" Sum :%d\n",ans);
+                    break;
      }
 
 exit(0);
