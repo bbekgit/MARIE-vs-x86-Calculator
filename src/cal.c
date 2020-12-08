@@ -38,7 +38,14 @@ int main()
                     ans = n1 * n2;
                     printf(" Multiplication :%d\n",ans);
 
+                    break;
+            case 4:
 
+                    printf(" Enter Two Numbers\n");
+                    scanf(" %d %d",&n1,&n2);
+                    ans = n1 / n2;
+                    printf(" Division :%d\n",ans);
+                    
                     break;
             default:
                    printf(" Enter correct choice\n");
