@@ -24,6 +24,19 @@ int main()
                     ans = n1 + n2;
                     printf(" Sum :%d\n",ans);
                     break;
+            case 2:
+
+                    printf(" Enter Two Numbers\n");
+                    scanf(" %d %d",&n1,&n2);
+                    ans = n1 - n2;
+                    printf(" Subtraction :%d\n",ans);
+                    
+                    break;
+            default:
+                   printf(" Enter correct choice\n");
+                   break;
+
+      } 
      }
 
 exit(0);
