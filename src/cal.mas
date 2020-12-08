@@ -23,3 +23,17 @@ MULT n2
 Store ans
 Load ans
 Output
+
+/Division
+Load n1
+DIV  n2
+Store ans
+Load ans
+Output
+
+Halt                / end after Output 
+
+/Variables Declaration
+n1,      DEC       0      / declaring n1
+n2,      DEC       0      / declaring n2
+ans,     DEC       0      / declaring ans
