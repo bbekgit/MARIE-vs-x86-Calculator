@@ -16,3 +16,10 @@ Subt n2
 Store ans
 Load ans
 Output
+
+/Multiplication
+Load n1
+MULT n2
+Store ans
+Load ans
+Output
