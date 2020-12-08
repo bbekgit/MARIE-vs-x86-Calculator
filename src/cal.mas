@@ -9,3 +9,10 @@ Add n2
 Store ans
 load ans
 Output
+
+/Subtraction
+Load n1
+Subt n2
+Store ans
+Load ans
+Output
