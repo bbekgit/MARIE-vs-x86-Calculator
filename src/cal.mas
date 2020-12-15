@@ -1,14 +1,19 @@
 Input                        / Accept 1st input from user
 Store  n1                    / storing input to n1
 Input                        / Accept 2nd input from user
-Store n2	                   / storing input to n2
+Store n2	                 / storing input to n2
+
+Load n1
+Store te1
+Load n2
+Store te2
 
 /Addition
 Load n1
 Add n2
 Store ans
 load ans
-Output
+Output              
 
 /Subtraction
 Load n1
@@ -17,23 +22,38 @@ Store ans
 Load ans
 Output
 
-/Multiplication
-Load n1
-MULT n2
-Store ans
-Load ans
-Output
-
 /Division
-Load n1
-DIV  n2
+Loop2,   Load n1 
+         
+            Skipcond 800     /if AC > 0 skip next instruction
+         	Jump Loop2End
+         Load num           / load fact to AC
+         Add  one          / Add infact to fact
+         Store num          / store fact
+         Load n1            / load in to AC
+		 Subt n2            / substract one from in
+		 Store n1            / store result to in
+         
+        Jump    Loop2        / jumping to Loop2 Again
+Loop2End, Load  num       / loding fact to AC
+         Output              / Printing output
+
+/Multiplication
+Load te1
+MULT te2
 Store ans
 Load ans
-Output
+Output        
+
 
 Halt                / end after Output 
 
 /Variables Declaration
-n1,      DEC       0      / declaring n1
-n2,      DEC       0      / declaring n2
-ans,     DEC       0      / declaring ans
+n1,      DEC       0      / declaring Base
+n2,      DEC       0      / declaring Exponent
+ans,     DEC       0      / declaring default
+one,     DEC       1      / increment by one
+num,     DEC       0      / declare num
+te1,     DEC       0      / declare num
+te2,     DEC       0      / declare num
+  
